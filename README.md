@@ -12,7 +12,7 @@ Examples: Three-Hump Camel Function
   <img width="400" height="300" src="https://github.com/luluytzhang/Aml_2019_Group9/blob/master/1.jpg"/400/300>
   <img width="400" height="300" src="https://github.com/luluytzhang/Aml_2019_Group9/blob/master/2.jpg"/400/300>
 </p>
-
+Figure: Left: the 3D-Plot of Three-Hump Camel Function. Right: The loss path of plain vanilla gradient descent.
 
 
 The challenge of plain vanilla gradient descent is to determine how large the step size we need to take. If the step size is too small, the processing time will be long. On the other hand, if the size is large, it may diverge. Therefore, in this project, we discuss another two types of gradient descent, Momentum and Nesterov's Accelerated Gradient(NAG). Comparing with plain vanilla, the Momentum takes accounts previous gradients which can accelerate gradient descent. NAG is a further improvement based on Momentum. It performs a lookahead gradient evaluation and then make corrections.
