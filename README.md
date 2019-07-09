@@ -1,4 +1,7 @@
 # Aml_2019 Coursework, Group 9, Part I
+**Note: If cannot view Jupyter notebook file, Please go the following link: https://nbviewer.jupyter.org/github/luluytzhang/Aml_2019_Group-9/blob/master/gd_function.ipynb
+
+---
 Experiments with Gradient Descent
 ---
 
