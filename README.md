@@ -25,6 +25,7 @@ Figure: 3D-Plot of Three-Hump Camel Function & Loss Path of Plain Vanilla Gradie
 
 Chart: Changing initial guess point and step size to see the differences of results.
 
+---
 Conclusion: The global minimum of Three-Hump Camel Function is [0,0] with another two local minimum points. We firstly set step size as 0.001, it takes 3908 steps to reach the global minimum point. However, when change the initial point, it stops at the local minimum point. By increasing the step size, it goes back to global minimum point. This is due to the issue of plain vanilla gradient decent. When the step size is too small, the process will stop at saddle point where the gradient is zero but it is not the minimum. However, if we increase the step size to 1, we can see from the result that the process diverges and stops at anypoint where has a zero gradient.
 
 ## Momentum Gradient Descent & Nesterov's Accelerated Gradient Descent(NAG)
