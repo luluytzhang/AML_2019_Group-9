@@ -14,6 +14,7 @@ By starting from a randomly point as our initialization, we will find its gradie
 </p>
 Figure: 3D-Plot of Three-Hump Camel Function & Loss Path of Plain Vanilla Gradient Descent
 
+---
 
 | Initial Point |Step Size (eta) | No. of Iterations | Minimum Loss |  Minimum values(x)  |
 | --- | ---| ---| --- | --- |
