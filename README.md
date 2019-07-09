@@ -6,13 +6,13 @@ In Machine Learning, there is a loss/cost function in each model, which can give
 
 By starting from a randomly point as our initialization, we will find its gradient, which is also known as the rate of change given a unit change in coefficient. Then, we take a step to "downhill"/negative gradient direction and move to the next point on the loss curve. In the process, the step size we take to the next point is also known as learning rate. If the gradient of the standing point is steep, there will be large decrease in the loss function for each step we take. Alternatively, if the gradient is small, then a large step can only cause a small change in the loss. After taking some steps, we find that the loss cannot be improved by a lot anymore, meaning that we reach the convergence or approach to the minimum. In the plain vanilla gradient descent, the step size(eta) is constant and the change in the loss in each step will depend on how steep the gradient of the point is.
 
-##Examples: Three-Hump Camel Function
+## Examples: Three-Hump Camel Function
 ---
 <p align="left">
   <img width="400" height="300" src="https://github.com/luluytzhang/Aml_2019_Group9/blob/master/1.jpg"/400/300>
   <img width="400" height="300" src="https://github.com/luluytzhang/Aml_2019_Group9/blob/master/2.jpg"/400/300>
 </p>
-**Figure: Left: the 3D-Plot of Three-Hump Camel Function. Right: The loss path of plain vanilla gradient descent.
+**Figure: Left: the 3D-Plot of Three-Hump Camel Function. Right: The loss path of plain vanilla gradient descent.**
 
 
 
