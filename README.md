@@ -12,6 +12,7 @@ By starting from a randomly point as our initialization, we will find its gradie
   <img width="400" height="300" src="https://github.com/luluytzhang/Aml_2019_Group9/blob/master/1.jpg"/400/300>
   <img width="400" height="300" src="https://github.com/luluytzhang/Aml_2019_Group9/blob/master/2.jpg"/400/300>
 </p>
+Figure: 3D-Plot of Three-Hump Camel Function & Loss Path of Plain Vanilla Gradient Descent
 
 | Initial Point |Step Size (eta) | No. of Iterations | Minimum Loss |  Minimum values(x)  |
 | --- | ---| ---| --- | --- |
@@ -19,6 +20,7 @@ By starting from a randomly point as our initialization, we will find its gradie
 | [1,1]      |eta=1           |        2          |   30.85876   | [2.5772800000000005, 2.8]        |
 | [2,2]      |eta=0.001       |        4546       |  0.29863870  |[1.7475011736524, -0.87325172472] |
 | [2,2]      |eta=0.1         |        37         |   1.90e-07   |[-0.000187361385, 0.000452342408] |
+Chart: Changing initial guess point and step size to see the differences of results.
 
 Conclusion: The global minimum of Three-Hump Camel Function is [0,0] with another two local minimum points. We firstly set step size as 0.001, it takes 3908 steps to reach the global minimum point. However, when change the initial point, it stops at the local minimum point. By increasing the step size, it goes back to global minimum point. This is due to the issue of plain vanilla gradient decent. When the step size is too small, the process will stop at saddle point where the gradient is zero but it is not the minimum. However, if we increase the step size to 1, we can see from the result that the process diverges and stops at anypoint where has a zero gradient.
 
